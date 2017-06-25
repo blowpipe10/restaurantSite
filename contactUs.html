@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Site V1</title>
+    </head>
+    <body>
+        <center><h1>Restaurant Name</h1></center>
+        <hr/>
+        <br/>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contactUs.html">Contact Us</a>
+        <br/>
+        <br/>
+        <hr/>
+         <form action="#" method="post">
+            <div>
+                <label id="nameLabel" for="fullName">Name: </label>
+                <input id="fullName" name="fullName" type="text" />
+            </div>
+            <br/>
+            <br/>
+            <div>
+                <label id="emailLabel" for="emailAddress">Email: </label>
+                <input id="emailAddress" name="emailAddress" type="text" />
+            </div>
+            <br/>
+            <div>
+                <label id="phoneLabel" for="phoneNumber">Phone: </label>
+                <input id="phoneNumber" name="phoneNumber" type="text" />
+            </div>
+            <br/>
+            <div>
+                <label id="inquiryReason" for="inquiryReason">Reason for Inquiry: </label>
+                <select name="Reason">
+                    <option value="Catering">Catering</option>
+                    <option value="Private Party">Private Party</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <label id="vistedRestaurant" for="vistedRestaurant">Have you been to the restaurant? </label>
+                <input type="radio" name="vistedRestaurant" value="Yes" checked/>Yes
+                <input type="radio" name="vistedRestaurant" value="No" />No<br/>
+            </div>
+            <br/>
+            <div>
+                <label id="contactDay" for="contactDay"></label>
+                Best days to contact you:
+                <input type="checkbox" name="contactDay" value="monday"/>M
+                <input type="checkbox" name="contactDay" value="tuesday"/>T
+                <input type="checkbox" name="contactDay" value="wednesday"/>W
+                <input type="checkbox" name="contactDay" value="thursday"/>Th
+                <input type="checkbox" name="contactDay" value="friday"/>F<br/>
+            </div>
+            <br/>
+            <div>
+                <input type="submit" id="sendRequest" value="Send Request"/>
+            </div>
+        <footer>
+            <hr/>
+            <center><h3>Street, City, State, Zipcode</h3></center>
+            <center><h3>Telephone Number</h3></center>
+        </footer>
+    </body>
+</html>
