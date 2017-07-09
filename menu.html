@@ -3,6 +3,14 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <title>Restaurant Site V1</title>
         <style>
             th, td {
@@ -17,9 +25,11 @@
             <h1 class="navBar">Restaurant Name</h1>
             <hr/>
             <br/>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="contactUs.html">Contact Us</a>
+            <ul class="nav nav-tabs">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
             <br/>
             <br/>
             <hr/>
@@ -29,9 +39,9 @@
     <body>
 
        
-        <div style="background-color: grey;">
+        <div class="container">
         <center>
-        <table>
+        <table class="table table-responsive">
             <tr>
                 <th>Burger and Fries</th>
                 <th>Hot Dog and Chips</th>
@@ -67,7 +77,7 @@
         <br>
         <br>
         <center>
-        <table>
+        <table class="table table-responsive">
             <tr>
                 <th>Tenderloin Sandwich and Chips</th>
                 <th>House Salad</th>
@@ -103,9 +113,9 @@
         </div>      
         
         </br>
-        <div style="background-color: grey;">
+        <div class="container">
         <center>
-        <table>
+        <table class="table table-responsive">
             <thead style="text-decoration: underline;">
                 <tr>
                 <th>Beverages</th>
